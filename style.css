@@ -13,7 +13,6 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--stone150);
 }
 
 img,
@@ -60,13 +59,59 @@ h6 {
   --rose50: #fff5fa;
 }
 
+/* Fonts */
+
+@font-face {
+  font-family: outfit;
+  src: url(./assets/fonts/outfit/static/Outfit-Regular.ttf) format("truetype");
+  font-weight: 400; /* Font weight for normal */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: outfit;
+  src: url(./assets/fonts/outfit/static/Outfit-SemiBold.ttf) format("truetype");
+  font-weight: 600; /* Font weight for semi-bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: outfit;
+  src: url(./assets/fonts/outfit/static/Outfit-Bold.ttf) format("truetype");
+  font-weight: 700; /* Font weight for bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: young-serif;
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+  font-weight: 400; /* Font weight for normal */
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--stone150);
+}
+
 .wrapper {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .recipe-container {
+  margin: 5rem 20rem;
+  padding: 2rem;
   background-color: var(--white);
+  border-radius: 40px;
+}
+
+.recipe-img {
+  border-radius: 15px;
 }
