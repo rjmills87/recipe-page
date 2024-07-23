@@ -220,3 +220,43 @@ td {
   font-weight: 700;
   color: var(--brown800);
 }
+
+/* CSS rules for mobile devices */
+@media only screen and (max-width: 767px) {
+}
+
+/* CSS rules for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: var(--white);
+  }
+  .recipe-container {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .recipe-img {
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .recipe-name,
+  .intro-para {
+    padding: 1rem 2rem;
+  }
+
+  .prep-container {
+    background-color: var(--rose50);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 2rem;
+  }
+
+  .ingredients,
+  .instructions,
+  .nutrition {
+    margin: 2rem;
+  }
+}
