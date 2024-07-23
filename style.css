@@ -94,7 +94,9 @@ h6 {
 }
 
 body {
+  font-family: outfit, sans-serif;
   font-size: 16px;
+  color: var(--stone900);
   background-color: var(--stone150);
 }
 
@@ -106,7 +108,7 @@ body {
   align-items: center;
 }
 .recipe-container {
-  margin: 5rem 20rem;
+  margin: 5rem 22rem;
   padding: 2rem;
   background-color: var(--white);
   border-radius: 40px;
@@ -114,4 +116,107 @@ body {
 
 .recipe-img {
   border-radius: 15px;
+}
+
+.recipe-name {
+  font-family: young-serif, sans-serif;
+  color: var(--stone900);
+  font-size: 2.75rem;
+  font-weight: 400;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.intro-para,
+.nutrition-para {
+  padding-bottom: 2rem;
+}
+
+.prep-container {
+  background-color: var(--rose50);
+  border-radius: 15px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.prep-heading {
+  color: var(--rose800);
+  font-size: 1.25rem;
+  margin-left: 15px;
+  padding-bottom: 0.5rem;
+}
+
+li {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.prep-list > li::marker {
+  color: var(--rose800);
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.list-heading,
+.nutrition-heading {
+  font-family: young-serif, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--brown800);
+  padding-bottom: 1rem;
+}
+
+.ingredients-list,
+.instructions-list {
+  padding-bottom: 1.5rem;
+}
+
+.ingredients-list > li {
+  list-style-type: square;
+}
+
+.ingredients-list > li::marker {
+  color: var(--brown800);
+}
+
+.ingredient,
+.instruction {
+  margin-left: -20px;
+}
+
+ol > li::marker {
+  font-weight: 700;
+  color: var(--brown800);
+}
+
+.ingredients,
+.instructions {
+  border-bottom: solid 1px var(--stone150);
+  margin-bottom: 2rem;
+}
+
+.bottom-row {
+  border-bottom: none;
+}
+
+.nutrition-table {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+th,
+td {
+  border-bottom: solid 1px var(--stone150);
+  padding: 10px 0px;
+}
+
+th {
+  font-weight: 400;
+  text-align: left;
+}
+
+td {
+  font-weight: 700;
+  color: var(--brown800);
 }
