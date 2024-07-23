@@ -14,6 +14,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 ## Overview
 
 This is my solution to Frontend Mentors Recipe Page Challenge using HTML5 and CSS3.
@@ -24,8 +26,8 @@ This is my solution to Frontend Mentors Recipe Page Challenge using HTML5 and CS
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://stirring-speculoos-28939e.netlify.app)
+- Solution URL: [Recipe Page Solution](https://your-solution-url.com)
+- Live Site URL: [Link](https://stirring-speculoos-28939e.netlify.app)
 
 ### Built with
 
