@@ -97,7 +97,7 @@ body {
   font-family: outfit, sans-serif;
   font-size: 16px;
   color: var(--stone900);
-  background-color: var(--stone150);
+  background-color: var(--stone100);
 }
 
 .wrapper {
@@ -221,12 +221,13 @@ td {
   color: var(--brown800);
 }
 
-/* CSS rules for mobile devices */
-@media only screen and (max-width: 767px) {
+.attribution {
+  padding: 1rem 0rem;
+  text-align: center;
 }
 
 /* CSS rules for tablet devices */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   body {
     background-color: var(--white);
   }
@@ -258,5 +259,26 @@ td {
   .instructions,
   .nutrition {
     margin: 2rem;
+  }
+
+  th {
+    padding-left: 25px;
+  }
+}
+
+/* CSS rules for mobile devices */
+@media only screen and (max-width: 767px) {
+  .recipe-name {
+    font-size: 2.25rem;
+    padding-bottom: 0;
+  }
+  .prep-container {
+    margin: 2rem 3rem;
+  }
+
+  .ingredients,
+  .instructions,
+  .nutrition {
+    margin: 2rem 3rem;
   }
 }
