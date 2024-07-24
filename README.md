@@ -26,7 +26,7 @@ This is my solution to Frontend Mentors Recipe Page Challenge using HTML5 and CS
 
 ### Links
 
-- Solution URL: [Recipe Page Solution](https://your-solution-url.com)
+- Solution URL: [Recipe Page Solution](https://www.frontendmentor.io/solutions/recipe-page-challenge-using-html5-and-css3-c1ic9bVYjq)
 - Live Site URL: [Link](https://stirring-speculoos-28939e.netlify.app)
 
 ### Built with
